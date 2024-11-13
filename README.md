@@ -53,7 +53,7 @@ o	Flip the original image vertically and display it.
 o	Save the final modified image to your local directory.
 
 
-##### Program:
+## Program:
 ### Developed By: ASHWIN KUMAR S
 ### Register Number: 212222240013
 
