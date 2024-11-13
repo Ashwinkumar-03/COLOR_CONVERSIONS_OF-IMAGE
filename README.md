@@ -1,6 +1,6 @@
 # EXP-1
 # COLOR_CONVERSIONS_OF-IMAGE
-## AIM
+## AIM:
 Write a Python program using OpenCV that performs the following tasks:
 
 i) Read and Display an Image.
