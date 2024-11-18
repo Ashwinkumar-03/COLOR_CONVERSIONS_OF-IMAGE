@@ -116,20 +116,30 @@ cv2.destroyAllWindows()
 ```
 import cv2
 
+# Load the image
 img = cv2.imread("Lokesh.jpg")
-start=(0,0)
-stop=(409,529)
-color=(100,255,100)
-thickness=10
 
-res_img=cv2.rectangle(img,start,stop,color,thickness)
+# Get the dimensions of the image
+height, width, _ = img.shape
 
-# Display the HSV image
+# Define the start and stop points for the rectangle
+start = (0, 0)  # Top-left corner
+stop = (width, height)  # Bottom-right corner
+
+# Define the color and thickness of the rectangle
+color = (100, 255, 100)  # Green color
+thickness = 10  # Thickness of the rectangle
+
+# Draw the rectangle
+res_img = cv2.rectangle(img, start, stop, color, thickness)
+
+# Display the image with the rectangle
 cv2.imshow('Image Window', res_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
+
 ```
-![image](https://github.com/user-attachments/assets/10ceab47-51fa-40a1-a3db-f49b67b401ee)
+![image](https://github.com/user-attachments/assets/a77fe442-b739-4620-8c51-3aea27ea06f0)
 
 
 ### iii)Image Color Conversion
