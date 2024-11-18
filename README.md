@@ -231,7 +231,6 @@ output_path = 'output.jpg'
 cv2.imwrite(output_path, image_with_text)
 print(f"Modified image saved as {output_path}")
 ```
-![image](https://github.com/user-attachments/assets/c7102281-b6a6-4d60-9217-f28479b12f61)
 
 
 
